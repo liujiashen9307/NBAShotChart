@@ -1,0 +1,724 @@
+"","SHOT_DISTANCE","Type","Shot_Quantity","Made_Quantity"
+"1",0,"Alley Oop Dunk Shot",1323,1205
+"2",0,"Alley Oop Layup shot",175,134
+"3",0,"Driving Bank Hook Shot",1,1
+"4",0,"Driving Bank shot",1,1
+"5",0,"Driving Dunk Shot",892,811
+"6",0,"Driving Finger Roll Layup Shot",281,246
+"7",0,"Driving Hook Shot",3,2
+"8",0,"Driving Jump shot",5,3
+"9",0,"Driving Layup Shot",2490,1976
+"10",0,"Driving Reverse Layup Shot",224,174
+"11",0,"Driving Slam Dunk Shot",582,559
+"12",0,"Dunk Shot",3512,3102
+"13",0,"Finger Roll Layup Shot",133,109
+"14",0,"Floating Jump shot",1,0
+"15",0,"Hook Shot",34,22
+"16",0,"Jump Bank Shot",2,1
+"17",0,"Jump Hook Shot",9,7
+"18",0,"Jump Shot",1,0
+"19",0,"Layup Shot",6252,3697
+"20",0,"Putback Dunk Shot",562,490
+"21",0,"Putback Layup Shot",442,374
+"22",0,"Putback Slam Dunk Shot",151,143
+"23",0,"Reverse Dunk Shot",116,103
+"24",0,"Reverse Layup Shot",540,395
+"25",0,"Reverse Slam Dunk Shot",37,36
+"26",0,"Running Dunk Shot",217,206
+"27",0,"Running Finger Roll Layup Shot",38,35
+"28",0,"Running Hook Shot",3,3
+"29",0,"Running Jump Shot",2,1
+"30",0,"Running Layup Shot",225,194
+"31",0,"Running Reverse Layup Shot",24,21
+"32",0,"Running Slam Dunk Shot",199,197
+"33",0,"Running Tip Shot",25,19
+"34",0,"Slam Dunk Shot",1542,1498
+"35",0,"Tip Shot",1653,851
+"36",0,"Turnaround Bank Hook Shot",1,1
+"37",0,"Turnaround Hook Shot",1,1
+"38",0,"Turnaround Jump Shot",1,1
+"39",1,"Alley Oop Dunk Shot",25,15
+"40",1,"Alley Oop Layup shot",300,216
+"41",1,"Driving Bank shot",6,5
+"42",1,"Driving Dunk Shot",23,16
+"43",1,"Driving Finger Roll Layup Shot",473,399
+"44",1,"Driving Hook Shot",10,8
+"45",1,"Driving Jump shot",20,12
+"46",1,"Driving Layup Shot",4814,3469
+"47",1,"Driving Reverse Layup Shot",538,375
+"48",1,"Driving Slam Dunk Shot",5,5
+"49",1,"Dunk Shot",21,15
+"50",1,"Fadeaway Jump Shot",1,0
+"51",1,"Finger Roll Layup Shot",178,132
+"52",1,"Floating Jump shot",8,5
+"53",1,"Hook Bank Shot",2,2
+"54",1,"Hook Shot",67,39
+"55",1,"Jump Bank Shot",2,2
+"56",1,"Jump Hook Shot",19,16
+"57",1,"Jump Shot",17,8
+"58",1,"Layup Shot",9905,5038
+"59",1,"Pullup Bank shot",1,0
+"60",1,"Pullup Jump shot",1,0
+"61",1,"Putback Dunk Shot",3,2
+"62",1,"Putback Layup Shot",519,409
+"63",1,"Putback Slam Dunk Shot",3,1
+"64",1,"Reverse Dunk Shot",1,1
+"65",1,"Reverse Layup Shot",918,597
+"66",1,"Reverse Slam Dunk Shot",1,0
+"67",1,"Running Bank Hook Shot",2,1
+"68",1,"Running Bank shot",3,3
+"69",1,"Running Dunk Shot",1,1
+"70",1,"Running Finger Roll Layup Shot",40,33
+"71",1,"Running Hook Shot",5,3
+"72",1,"Running Jump Shot",4,2
+"73",1,"Running Layup Shot",507,347
+"74",1,"Running Reverse Layup Shot",73,56
+"75",1,"Running Slam Dunk Shot",2,1
+"76",1,"Running Tip Shot",28,21
+"77",1,"Slam Dunk Shot",9,9
+"78",1,"Tip Shot",1587,711
+"79",1,"Turnaround Bank Hook Shot",1,1
+"80",1,"Turnaround Hook Shot",16,13
+"81",1,"Turnaround Jump Shot",1,1
+"82",2,"Alley Oop Dunk Shot",8,6
+"83",2,"Alley Oop Layup shot",175,103
+"84",2,"Driving Bank Hook Shot",1,1
+"85",2,"Driving Bank shot",22,15
+"86",2,"Driving Dunk Shot",8,5
+"87",2,"Driving Finger Roll Layup Shot",342,255
+"88",2,"Driving Hook Shot",26,15
+"89",2,"Driving Jump shot",44,24
+"90",2,"Driving Layup Shot",3439,2131
+"91",2,"Driving Reverse Layup Shot",286,160
+"92",2,"Driving Slam Dunk Shot",1,1
+"93",2,"Dunk Shot",17,4
+"94",2,"Fadeaway Jump Shot",4,1
+"95",2,"Finger Roll Layup Shot",165,115
+"96",2,"Floating Jump shot",9,3
+"97",2,"Hook Bank Shot",8,7
+"98",2,"Hook Shot",161,89
+"99",2,"Jump Bank Hook Shot",1,1
+"100",2,"Jump Bank Shot",18,16
+"101",2,"Jump Hook Shot",45,33
+"102",2,"Jump Shot",43,16
+"103",2,"Layup Shot",7671,2870
+"104",2,"Putback Dunk Shot",4,1
+"105",2,"Putback Layup Shot",266,195
+"106",2,"Putback Slam Dunk Shot",1,1
+"107",2,"Reverse Dunk Shot",1,1
+"108",2,"Reverse Layup Shot",533,308
+"109",2,"Running Bank shot",16,12
+"110",2,"Running Dunk Shot",1,0
+"111",2,"Running Finger Roll Layup Shot",36,31
+"112",2,"Running Hook Shot",29,12
+"113",2,"Running Jump Shot",25,14
+"114",2,"Running Layup Shot",492,272
+"115",2,"Running Reverse Layup Shot",38,24
+"116",2,"Running Tip Shot",13,8
+"117",2,"Slam Dunk Shot",3,3
+"118",2,"Tip Shot",621,207
+"119",2,"Turnaround Bank Hook Shot",2,2
+"120",2,"Turnaround Bank shot",5,5
+"121",2,"Turnaround Hook Shot",39,27
+"122",2,"Turnaround Jump Shot",13,5
+"123",3,"Alley Oop Dunk Shot",1,1
+"124",3,"Alley Oop Layup shot",22,11
+"125",3,"Driving Bank Hook Shot",3,3
+"126",3,"Driving Bank shot",61,52
+"127",3,"Driving Dunk Shot",1,1
+"128",3,"Driving Finger Roll Layup Shot",90,59
+"129",3,"Driving Hook Shot",55,33
+"130",3,"Driving Jump shot",310,123
+"131",3,"Driving Layup Shot",613,310
+"132",3,"Driving Reverse Layup Shot",21,11
+"133",3,"Dunk Shot",1,1
+"134",3,"Fadeaway Jump Shot",6,5
+"135",3,"Finger Roll Layup Shot",38,26
+"136",3,"Floating Jump shot",140,86
+"137",3,"Hook Bank Shot",17,14
+"138",3,"Hook Shot",431,211
+"139",3,"Jump Bank Hook Shot",4,3
+"140",3,"Jump Bank Shot",103,72
+"141",3,"Jump Hook Shot",119,85
+"142",3,"Jump Shot",2747,480
+"143",3,"Layup Shot",696,245
+"144",3,"Pullup Bank shot",3,2
+"145",3,"Pullup Jump shot",10,6
+"146",3,"Putback Dunk Shot",2,0
+"147",3,"Putback Layup Shot",34,19
+"148",3,"Reverse Layup Shot",44,19
+"149",3,"Running Bank shot",69,54
+"150",3,"Running Finger Roll Layup Shot",7,4
+"151",3,"Running Hook Shot",85,47
+"152",3,"Running Jump Shot",280,112
+"153",3,"Running Layup Shot",107,39
+"154",3,"Running Reverse Layup Shot",6,2
+"155",3,"Slam Dunk Shot",1,1
+"156",3,"Tip Shot",100,25
+"157",3,"Turnaround Bank Hook Shot",6,5
+"158",3,"Turnaround Bank shot",15,12
+"159",3,"Turnaround Fadeaway shot",2,1
+"160",3,"Turnaround Hook Shot",70,45
+"161",3,"Turnaround Jump Shot",79,44
+"162",4,"Alley Oop Layup shot",1,0
+"163",4,"Driving Bank Hook Shot",8,6
+"164",4,"Driving Bank shot",63,47
+"165",4,"Driving Finger Roll Layup Shot",16,9
+"166",4,"Driving Hook Shot",70,33
+"167",4,"Driving Jump shot",252,92
+"168",4,"Driving Layup Shot",164,80
+"169",4,"Driving Reverse Layup Shot",3,1
+"170",4,"Dunk Shot",1,1
+"171",4,"Fadeaway Bank shot",6,5
+"172",4,"Fadeaway Jump Shot",37,19
+"173",4,"Finger Roll Layup Shot",15,7
+"174",4,"Floating Jump shot",269,163
+"175",4,"Hook Bank Shot",12,9
+"176",4,"Hook Shot",634,290
+"177",4,"Jump Bank Hook Shot",3,3
+"178",4,"Jump Bank Shot",160,110
+"179",4,"Jump Hook Shot",192,118
+"180",4,"Jump Shot",2251,445
+"181",4,"Layup Shot",73,28
+"182",4,"Pullup Bank shot",4,4
+"183",4,"Pullup Jump shot",20,9
+"184",4,"Putback Layup Shot",4,4
+"185",4,"Reverse Layup Shot",3,0
+"186",4,"Running Bank Hook Shot",4,4
+"187",4,"Running Bank shot",95,71
+"188",4,"Running Finger Roll Layup Shot",9,3
+"189",4,"Running Hook Shot",120,71
+"190",4,"Running Jump Shot",409,171
+"191",4,"Running Layup Shot",19,5
+"192",4,"Step Back Jump shot",2,2
+"193",4,"Tip Shot",3,1
+"194",4,"Turnaround Bank Hook Shot",12,12
+"195",4,"Turnaround Bank shot",26,19
+"196",4,"Turnaround Fadeaway shot",5,4
+"197",4,"Turnaround Hook Shot",113,67
+"198",4,"Turnaround Jump Shot",148,66
+"199",5,"Driving Bank Hook Shot",4,3
+"200",5,"Driving Bank shot",70,53
+"201",5,"Driving Finger Roll Layup Shot",1,0
+"202",5,"Driving Hook Shot",64,36
+"203",5,"Driving Jump shot",258,103
+"204",5,"Driving Layup Shot",7,1
+"205",5,"Fadeaway Bank shot",5,1
+"206",5,"Fadeaway Jump Shot",38,16
+"207",5,"Floating Jump shot",328,184
+"208",5,"Hook Bank Shot",25,18
+"209",5,"Hook Shot",711,290
+"210",5,"Jump Bank Hook Shot",7,5
+"211",5,"Jump Bank Shot",140,79
+"212",5,"Jump Hook Shot",231,123
+"213",5,"Jump Shot",2027,443
+"214",5,"Layup Shot",4,1
+"215",5,"Pullup Jump shot",28,10
+"216",5,"Putback Layup Shot",1,0
+"217",5,"Running Bank Hook Shot",8,6
+"218",5,"Running Bank shot",123,79
+"219",5,"Running Hook Shot",147,79
+"220",5,"Running Jump Shot",408,163
+"221",5,"Running Layup Shot",1,0
+"222",5,"Step Back Jump shot",6,4
+"223",5,"Tip Shot",4,1
+"224",5,"Turnaround Bank Hook Shot",9,9
+"225",5,"Turnaround Bank shot",25,18
+"226",5,"Turnaround Fadeaway shot",8,4
+"227",5,"Turnaround Hook Shot",152,93
+"228",5,"Turnaround Jump Shot",156,72
+"229",6,"Driving Bank Hook Shot",7,3
+"230",6,"Driving Bank shot",51,33
+"231",6,"Driving Hook Shot",48,23
+"232",6,"Driving Jump shot",211,91
+"233",6,"Fadeaway Bank shot",10,7
+"234",6,"Fadeaway Jump Shot",55,28
+"235",6,"Floating Jump shot",400,220
+"236",6,"Hook Bank Shot",20,16
+"237",6,"Hook Shot",633,256
+"238",6,"Jump Bank Hook Shot",6,6
+"239",6,"Jump Bank Shot",155,98
+"240",6,"Jump Hook Shot",222,121
+"241",6,"Jump Shot",1845,379
+"242",6,"Pullup Bank shot",6,3
+"243",6,"Pullup Jump shot",34,25
+"244",6,"Running Bank Hook Shot",5,3
+"245",6,"Running Bank shot",110,80
+"246",6,"Running Finger Roll Layup Shot",1,1
+"247",6,"Running Hook Shot",133,65
+"248",6,"Running Jump Shot",415,172
+"249",6,"Step Back Jump shot",11,5
+"250",6,"Tip Shot",3,0
+"251",6,"Turnaround Bank Hook Shot",17,15
+"252",6,"Turnaround Bank shot",30,23
+"253",6,"Turnaround Fadeaway shot",24,9
+"254",6,"Turnaround Hook Shot",174,90
+"255",6,"Turnaround Jump Shot",198,102
+"256",7,"Driving Bank Hook Shot",3,3
+"257",7,"Driving Bank shot",28,16
+"258",7,"Driving Hook Shot",30,9
+"259",7,"Driving Jump shot",154,51
+"260",7,"Fadeaway Bank shot",8,7
+"261",7,"Fadeaway Jump Shot",108,44
+"262",7,"Floating Jump shot",349,210
+"263",7,"Hook Bank Shot",5,2
+"264",7,"Hook Shot",416,158
+"265",7,"Jump Bank Hook Shot",4,2
+"266",7,"Jump Bank Shot",116,75
+"267",7,"Jump Hook Shot",202,125
+"268",7,"Jump Shot",1636,383
+"269",7,"Pullup Bank shot",3,2
+"270",7,"Pullup Jump shot",41,28
+"271",7,"Running Bank Hook Shot",5,5
+"272",7,"Running Bank shot",106,69
+"273",7,"Running Hook Shot",91,48
+"274",7,"Running Jump Shot",345,146
+"275",7,"Step Back Jump shot",28,11
+"276",7,"Tip Shot",1,0
+"277",7,"Turnaround Bank Hook Shot",15,12
+"278",7,"Turnaround Bank shot",41,27
+"279",7,"Turnaround Fadeaway shot",53,20
+"280",7,"Turnaround Hook Shot",158,79
+"281",7,"Turnaround Jump Shot",217,88
+"282",8,"Driving Bank Hook Shot",1,1
+"283",8,"Driving Bank shot",23,18
+"284",8,"Driving Hook Shot",18,9
+"285",8,"Driving Jump shot",108,48
+"286",8,"Fadeaway Bank shot",16,11
+"287",8,"Fadeaway Jump Shot",122,68
+"288",8,"Floating Jump shot",310,167
+"289",8,"Hook Bank Shot",7,4
+"290",8,"Hook Shot",289,124
+"291",8,"Jump Bank Hook Shot",1,1
+"292",8,"Jump Bank Shot",72,40
+"293",8,"Jump Hook Shot",142,68
+"294",8,"Jump Shot",1363,352
+"295",8,"Pullup Bank shot",9,8
+"296",8,"Pullup Jump shot",57,33
+"297",8,"Running Bank Hook Shot",4,4
+"298",8,"Running Bank shot",70,45
+"299",8,"Running Hook Shot",63,37
+"300",8,"Running Jump Shot",295,138
+"301",8,"Step Back Jump shot",28,7
+"302",8,"Tip Shot",1,0
+"303",8,"Turnaround Bank Hook Shot",8,8
+"304",8,"Turnaround Bank shot",31,21
+"305",8,"Turnaround Fadeaway shot",88,52
+"306",8,"Turnaround Hook Shot",152,80
+"307",8,"Turnaround Jump Shot",248,116
+"308",9,"Driving Bank shot",23,18
+"309",9,"Driving Hook Shot",15,7
+"310",9,"Driving Jump shot",78,33
+"311",9,"Fadeaway Bank shot",6,5
+"312",9,"Fadeaway Jump Shot",117,55
+"313",9,"Floating Jump shot",266,153
+"314",9,"Hook Bank Shot",5,4
+"315",9,"Hook Shot",168,71
+"316",9,"Jump Bank Hook Shot",1,0
+"317",9,"Jump Bank Shot",83,54
+"318",9,"Jump Hook Shot",70,41
+"319",9,"Jump Shot",1278,305
+"320",9,"Pullup Bank shot",5,4
+"321",9,"Pullup Jump shot",91,62
+"322",9,"Running Bank shot",87,56
+"323",9,"Running Hook Shot",33,12
+"324",9,"Running Jump Shot",227,109
+"325",9,"Step Back Jump shot",39,22
+"326",9,"Turnaround Bank Hook Shot",6,2
+"327",9,"Turnaround Bank shot",29,24
+"328",9,"Turnaround Fadeaway shot",96,41
+"329",9,"Turnaround Hook Shot",106,56
+"330",9,"Turnaround Jump Shot",253,122
+"331",10,"Driving Bank shot",15,12
+"332",10,"Driving Hook Shot",5,2
+"333",10,"Driving Jump shot",47,19
+"334",10,"Fadeaway Bank shot",6,4
+"335",10,"Fadeaway Jump Shot",159,78
+"336",10,"Floating Jump shot",219,103
+"337",10,"Hook Bank Shot",2,2
+"338",10,"Hook Shot",109,36
+"339",10,"Jump Bank Shot",73,41
+"340",10,"Jump Hook Shot",67,39
+"341",10,"Jump Shot",1265,324
+"342",10,"Pullup Bank shot",10,7
+"343",10,"Pullup Jump shot",115,64
+"344",10,"Running Bank shot",50,31
+"345",10,"Running Hook Shot",12,5
+"346",10,"Running Jump Shot",203,89
+"347",10,"Step Back Jump shot",61,29
+"348",10,"Turnaround Bank Hook Shot",1,1
+"349",10,"Turnaround Bank shot",20,11
+"350",10,"Turnaround Fadeaway shot",106,51
+"351",10,"Turnaround Hook Shot",52,27
+"352",10,"Turnaround Jump Shot",220,97
+"353",11,"Driving Bank shot",7,4
+"354",11,"Driving Jump shot",31,17
+"355",11,"Fadeaway Bank shot",12,10
+"356",11,"Fadeaway Jump Shot",190,92
+"357",11,"Floating Jump shot",177,95
+"358",11,"Hook Bank Shot",2,1
+"359",11,"Hook Shot",44,16
+"360",11,"Jump Bank Shot",77,40
+"361",11,"Jump Hook Shot",29,12
+"362",11,"Jump Shot",1445,413
+"363",11,"Pullup Bank shot",7,4
+"364",11,"Pullup Jump shot",166,101
+"365",11,"Running Bank shot",42,27
+"366",11,"Running Hook Shot",15,9
+"367",11,"Running Jump Shot",144,64
+"368",11,"Step Back Jump shot",70,35
+"369",11,"Turnaround Bank Hook Shot",1,1
+"370",11,"Turnaround Bank shot",22,14
+"371",11,"Turnaround Fadeaway shot",108,61
+"372",11,"Turnaround Hook Shot",43,20
+"373",11,"Turnaround Jump Shot",220,93
+"374",12,"Driving Bank shot",6,5
+"375",12,"Driving Jump shot",29,19
+"376",12,"Fadeaway Bank shot",4,3
+"377",12,"Fadeaway Jump Shot",193,86
+"378",12,"Floating Jump shot",143,87
+"379",12,"Hook Shot",17,5
+"380",12,"Jump Bank Hook Shot",1,1
+"381",12,"Jump Bank Shot",65,42
+"382",12,"Jump Hook Shot",16,8
+"383",12,"Jump Shot",1587,521
+"384",12,"Pullup Bank shot",6,5
+"385",12,"Pullup Jump shot",173,105
+"386",12,"Running Bank shot",33,22
+"387",12,"Running Hook Shot",1,0
+"388",12,"Running Jump Shot",97,46
+"389",12,"Step Back Jump shot",137,66
+"390",12,"Turnaround Bank Hook Shot",1,1
+"391",12,"Turnaround Bank shot",16,7
+"392",12,"Turnaround Fadeaway shot",137,71
+"393",12,"Turnaround Hook Shot",31,16
+"394",12,"Turnaround Jump Shot",225,96
+"395",13,"Driving Bank shot",2,2
+"396",13,"Driving Jump shot",16,9
+"397",13,"Fadeaway Bank shot",8,6
+"398",13,"Fadeaway Jump Shot",197,87
+"399",13,"Floating Jump shot",87,43
+"400",13,"Hook Shot",8,2
+"401",13,"Jump Bank Shot",56,30
+"402",13,"Jump Hook Shot",6,4
+"403",13,"Jump Shot",1882,622
+"404",13,"Pullup Bank shot",8,7
+"405",13,"Pullup Jump shot",237,144
+"406",13,"Running Bank shot",11,7
+"407",13,"Running Hook Shot",1,0
+"408",13,"Running Jump Shot",83,32
+"409",13,"Step Back Jump shot",129,64
+"410",13,"Turnaround Bank shot",14,10
+"411",13,"Turnaround Fadeaway shot",121,56
+"412",13,"Turnaround Hook Shot",9,3
+"413",13,"Turnaround Jump Shot",216,93
+"414",14,"Driving Bank shot",3,2
+"415",14,"Driving Jump shot",8,3
+"416",14,"Fadeaway Bank shot",5,4
+"417",14,"Fadeaway Jump Shot",209,105
+"418",14,"Floating Jump shot",40,20
+"419",14,"Hook Shot",3,0
+"420",14,"Jump Bank Shot",58,41
+"421",14,"Jump Hook Shot",1,1
+"422",14,"Jump Shot",2645,939
+"423",14,"Pullup Bank shot",9,4
+"424",14,"Pullup Jump shot",337,214
+"425",14,"Running Bank shot",16,8
+"426",14,"Running Hook Shot",1,1
+"427",14,"Running Jump Shot",60,20
+"428",14,"Step Back Jump shot",199,120
+"429",14,"Turnaround Bank shot",5,4
+"430",14,"Turnaround Fadeaway shot",120,66
+"431",14,"Turnaround Hook Shot",4,1
+"432",14,"Turnaround Jump Shot",201,83
+"433",15,"Driving Jump shot",8,4
+"434",15,"Fadeaway Bank shot",5,5
+"435",15,"Fadeaway Jump Shot",210,97
+"436",15,"Floating Jump shot",31,15
+"437",15,"Hook Shot",4,3
+"438",15,"Jump Bank Shot",52,35
+"439",15,"Jump Hook Shot",1,1
+"440",15,"Jump Shot",3445,1263
+"441",15,"Pullup Bank shot",11,7
+"442",15,"Pullup Jump shot",390,240
+"443",15,"Putback Layup Shot",1,0
+"444",15,"Running Bank shot",7,3
+"445",15,"Running Jump Shot",52,23
+"446",15,"Step Back Jump shot",205,105
+"447",15,"Turnaround Bank shot",5,2
+"448",15,"Turnaround Fadeaway shot",84,49
+"449",15,"Turnaround Hook Shot",3,2
+"450",15,"Turnaround Jump Shot",179,75
+"451",16,"Driving Jump shot",9,4
+"452",16,"Fadeaway Bank shot",3,2
+"453",16,"Fadeaway Jump Shot",222,121
+"454",16,"Floating Jump shot",31,20
+"455",16,"Hook Shot",1,0
+"456",16,"Jump Bank Shot",48,31
+"457",16,"Jump Shot",4380,1576
+"458",16,"Pullup Bank shot",5,1
+"459",16,"Pullup Jump shot",541,319
+"460",16,"Running Bank shot",2,1
+"461",16,"Running Jump Shot",33,14
+"462",16,"Step Back Jump shot",272,133
+"463",16,"Turnaround Bank shot",3,2
+"464",16,"Turnaround Fadeaway shot",76,29
+"465",16,"Turnaround Hook Shot",1,0
+"466",16,"Turnaround Jump Shot",117,51
+"467",17,"Driving Jump shot",4,3
+"468",17,"Fadeaway Bank shot",2,2
+"469",17,"Fadeaway Jump Shot",192,102
+"470",17,"Floating Jump shot",15,8
+"471",17,"Jump Bank Shot",43,28
+"472",17,"Jump Shot",5052,1796
+"473",17,"Layup Shot",1,0
+"474",17,"Pullup Bank shot",9,4
+"475",17,"Pullup Jump shot",622,374
+"476",17,"Running Bank shot",3,1
+"477",17,"Running Jump Shot",15,6
+"478",17,"Step Back Jump shot",305,164
+"479",17,"Turnaround Bank shot",2,1
+"480",17,"Turnaround Fadeaway shot",51,25
+"481",17,"Turnaround Jump Shot",85,47
+"482",18,"Driving Bank shot",1,1
+"483",18,"Driving Jump shot",3,3
+"484",18,"Fadeaway Jump Shot",154,72
+"485",18,"Floating Jump shot",17,9
+"486",18,"Jump Bank Shot",25,20
+"487",18,"Jump Shot",5403,2043
+"488",18,"Pullup Bank shot",7,4
+"489",18,"Pullup Jump shot",675,382
+"490",18,"Running Bank shot",1,1
+"491",18,"Running Jump Shot",15,9
+"492",18,"Step Back Jump shot",245,116
+"493",18,"Tip Shot",1,0
+"494",18,"Turnaround Bank shot",1,1
+"495",18,"Turnaround Fadeaway shot",30,18
+"496",18,"Turnaround Jump Shot",47,19
+"497",19,"Driving Jump shot",2,2
+"498",19,"Fadeaway Bank shot",1,0
+"499",19,"Fadeaway Jump Shot",83,43
+"500",19,"Floating Jump shot",5,2
+"501",19,"Jump Bank Shot",21,19
+"502",19,"Jump Shot",5237,1932
+"503",19,"Pullup Bank shot",2,1
+"504",19,"Pullup Jump shot",635,365
+"505",19,"Running Jump Shot",12,9
+"506",19,"Step Back Jump shot",256,123
+"507",19,"Turnaround Fadeaway shot",16,8
+"508",19,"Turnaround Jump Shot",32,8
+"509",20,"Fadeaway Jump Shot",40,20
+"510",20,"Floating Jump shot",7,3
+"511",20,"Jump Bank Shot",18,9
+"512",20,"Jump Shot",4296,1537
+"513",20,"Pullup Bank shot",3,2
+"514",20,"Pullup Jump shot",420,251
+"515",20,"Running Bank shot",1,1
+"516",20,"Running Jump Shot",4,1
+"517",20,"Step Back Jump shot",174,80
+"518",20,"Turnaround Fadeaway shot",11,5
+"519",20,"Turnaround Jump Shot",12,5
+"520",21,"Driving Jump shot",1,1
+"521",21,"Fadeaway Jump Shot",33,18
+"522",21,"Floating Jump shot",7,1
+"523",21,"Jump Bank Shot",6,6
+"524",21,"Jump Hook Shot",1,1
+"525",21,"Jump Shot",2444,877
+"526",21,"Pullup Bank shot",1,0
+"527",21,"Pullup Jump shot",221,120
+"528",21,"Running Jump Shot",4,1
+"529",21,"Step Back Jump shot",107,49
+"530",21,"Turnaround Fadeaway shot",5,2
+"531",21,"Turnaround Jump Shot",11,5
+"532",22,"Fadeaway Jump Shot",12,8
+"533",22,"Floating Jump shot",3,0
+"534",22,"Jump Bank Shot",14,9
+"535",22,"Jump Shot",4429,1691
+"536",22,"Pullup Jump shot",131,66
+"537",22,"Running Hook Shot",1,1
+"538",22,"Running Jump Shot",3,1
+"539",22,"Step Back Jump shot",67,30
+"540",22,"Turnaround Fadeaway shot",1,0
+"541",22,"Turnaround Jump Shot",6,3
+"542",23,"Fadeaway Jump Shot",13,3
+"543",23,"Floating Jump shot",3,0
+"544",23,"Jump Bank Shot",12,6
+"545",23,"Jump Shot",8232,3127
+"546",23,"Pullup Jump shot",189,117
+"547",23,"Running Jump Shot",1,0
+"548",23,"Step Back Jump shot",98,52
+"549",23,"Turnaround Fadeaway shot",2,0
+"550",23,"Turnaround Jump Shot",4,2
+"551",24,"Driving Jump shot",1,1
+"552",24,"Fadeaway Jump Shot",11,7
+"553",24,"Floating Jump shot",8,4
+"554",24,"Jump Bank Shot",25,17
+"555",24,"Jump Shot",13881,4856
+"556",24,"Layup Shot",1,0
+"557",24,"Pullup Jump shot",433,235
+"558",24,"Running Bank shot",2,1
+"559",24,"Running Jump Shot",8,4
+"560",24,"Step Back Jump shot",184,80
+"561",24,"Tip Shot",1,0
+"562",24,"Turnaround Fadeaway shot",3,0
+"563",24,"Turnaround Jump Shot",6,4
+"564",25,"Fadeaway Bank shot",1,1
+"565",25,"Fadeaway Jump Shot",17,6
+"566",25,"Floating Jump shot",1,0
+"567",25,"Jump Bank Shot",33,20
+"568",25,"Jump Shot",14192,4846
+"569",25,"Pullup Bank shot",3,1
+"570",25,"Pullup Jump shot",565,276
+"571",25,"Running Bank shot",1,0
+"572",25,"Running Hook Shot",1,0
+"573",25,"Running Jump Shot",10,2
+"574",25,"Step Back Jump shot",153,75
+"575",25,"Turnaround Jump Shot",10,5
+"576",26,"Fadeaway Jump Shot",13,7
+"577",26,"Jump Bank Shot",25,20
+"578",26,"Jump Shot",6289,2015
+"579",26,"Pullup Bank shot",4,3
+"580",26,"Pullup Jump shot",393,196
+"581",26,"Running Jump Shot",9,3
+"582",26,"Step Back Jump shot",73,39
+"583",26,"Turnaround Bank shot",1,0
+"584",26,"Turnaround Fadeaway shot",2,1
+"585",26,"Turnaround Jump Shot",5,2
+"586",27,"Fadeaway Bank shot",1,1
+"587",27,"Fadeaway Jump Shot",5,3
+"588",27,"Jump Bank Shot",16,5
+"589",27,"Jump Shot",1696,501
+"590",27,"Pullup Bank shot",2,2
+"591",27,"Pullup Jump shot",171,84
+"592",27,"Running Jump Shot",4,1
+"593",27,"Step Back Jump shot",29,17
+"594",28,"Driving Jump shot",1,0
+"595",28,"Fadeaway Jump Shot",1,0
+"596",28,"Hook Shot",1,0
+"597",28,"Jump Bank Shot",3,2
+"598",28,"Jump Shot",525,141
+"599",28,"Pullup Jump shot",67,32
+"600",28,"Running Jump Shot",2,0
+"601",28,"Step Back Jump shot",5,3
+"602",28,"Turnaround Jump Shot",1,0
+"603",29,"Floating Jump shot",1,0
+"604",29,"Jump Bank Shot",6,3
+"605",29,"Jump Shot",204,49
+"606",29,"Pullup Jump shot",32,10
+"607",29,"Running Jump Shot",3,0
+"608",29,"Step Back Jump shot",2,0
+"609",30,"Driving Jump shot",1,0
+"610",30,"Jump Bank Shot",1,0
+"611",30,"Jump Shot",93,16
+"612",30,"Pullup Jump shot",4,4
+"613",30,"Running Jump Shot",2,0
+"614",30,"Step Back Jump shot",1,1
+"615",30,"Turnaround Jump Shot",1,0
+"616",31,"Jump Shot",40,9
+"617",31,"Pullup Bank shot",1,0
+"618",31,"Pullup Jump shot",7,5
+"619",31,"Running Jump Shot",2,0
+"620",31,"Turnaround Bank shot",1,0
+"621",31,"Turnaround Jump Shot",1,0
+"622",32,"Jump Shot",37,6
+"623",32,"Pullup Jump shot",1,0
+"624",32,"Running Bank shot",1,0
+"625",32,"Running Jump Shot",2,2
+"626",32,"Turnaround Jump Shot",1,0
+"627",33,"Jump Shot",28,3
+"628",33,"Pullup Jump shot",1,0
+"629",33,"Turnaround Fadeaway shot",1,0
+"630",34,"Jump Bank Shot",1,0
+"631",34,"Jump Shot",19,0
+"632",34,"Pullup Jump shot",1,0
+"633",34,"Running Jump Shot",1,0
+"634",35,"Jump Shot",23,3
+"635",36,"Jump Shot",20,1
+"636",37,"Jump Shot",19,0
+"637",37,"Running Jump Shot",1,0
+"638",38,"Jump Shot",36,1
+"639",38,"Pullup Jump shot",1,1
+"640",38,"Running Jump Shot",1,0
+"641",39,"Jump Shot",24,0
+"642",39,"Running Jump Shot",3,0
+"643",40,"Jump Shot",49,1
+"644",40,"Running Jump Shot",3,0
+"645",41,"Jump Shot",24,1
+"646",41,"Pullup Jump shot",1,0
+"647",41,"Running Jump Shot",2,0
+"648",42,"Jump Shot",16,0
+"649",42,"Running Bank shot",1,1
+"650",43,"Jump Shot",17,0
+"651",43,"Running Jump Shot",2,0
+"652",44,"Jump Shot",21,0
+"653",44,"Running Jump Shot",2,0
+"654",45,"Jump Bank Shot",1,1
+"655",45,"Jump Shot",17,0
+"656",45,"Pullup Jump shot",2,0
+"657",45,"Running Jump Shot",6,1
+"658",46,"Jump Bank Shot",1,0
+"659",46,"Jump Shot",16,1
+"660",46,"Running Jump Shot",5,0
+"661",47,"Jump Bank Shot",1,1
+"662",47,"Jump Shot",21,0
+"663",47,"Running Jump Shot",3,0
+"664",48,"Jump Shot",16,0
+"665",48,"Running Bank shot",1,0
+"666",48,"Running Jump Shot",8,1
+"667",49,"Jump Shot",19,0
+"668",49,"Pullup Jump shot",1,0
+"669",49,"Running Bank shot",1,0
+"670",49,"Running Jump Shot",6,0
+"671",50,"Jump Shot",13,0
+"672",50,"Pullup Jump shot",1,0
+"673",50,"Running Jump Shot",2,0
+"674",51,"Jump Shot",14,1
+"675",51,"Pullup Jump shot",1,0
+"676",51,"Running Jump Shot",4,0
+"677",52,"Jump Shot",17,1
+"678",52,"Running Jump Shot",2,0
+"679",53,"Jump Shot",20,1
+"680",53,"Pullup Jump shot",1,0
+"681",53,"Running Jump Shot",4,0
+"682",54,"Jump Shot",12,0
+"683",54,"Running Jump Shot",2,0
+"684",55,"Jump Shot",12,1
+"685",55,"Pullup Jump shot",1,0
+"686",55,"Running Jump Shot",2,0
+"687",56,"Jump Shot",13,0
+"688",56,"Running Jump Shot",1,0
+"689",57,"Jump Shot",8,0
+"690",57,"Running Jump Shot",2,0
+"691",58,"Jump Shot",12,0
+"692",59,"Jump Bank Shot",1,1
+"693",59,"Jump Shot",13,0
+"694",60,"Jump Shot",7,0
+"695",61,"Jump Shot",8,1
+"696",62,"Jump Shot",7,0
+"697",63,"Jump Shot",9,0
+"698",64,"Jump Shot",3,0
+"699",65,"Jump Shot",7,0
+"700",66,"Jump Shot",1,0
+"701",66,"Running Jump Shot",1,0
+"702",67,"Jump Shot",7,0
+"703",68,"Jump Shot",4,0
+"704",69,"Jump Shot",5,0
+"705",69,"Pullup Jump shot",1,0
+"706",70,"Jump Shot",7,0
+"707",71,"Jump Shot",2,0
+"708",72,"Jump Shot",3,0
+"709",73,"Jump Shot",3,0
+"710",74,"Jump Shot",4,0
+"711",75,"Jump Shot",6,0
+"712",76,"Jump Shot",3,0
+"713",77,"Jump Shot",5,0
+"714",78,"Jump Shot",4,0
+"715",78,"Running Jump Shot",1,0
+"716",79,"Jump Shot",3,0
+"717",80,"Jump Shot",2,0
+"718",81,"Jump Shot",2,0
+"719",82,"Jump Shot",2,0
+"720",83,"Jump Shot",3,0
+"721",84,"Jump Shot",1,0
+"722",85,"Jump Shot",2,0
+"723",86,"Jump Shot",1,0
