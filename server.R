@@ -832,166 +832,45 @@ shinyServer(function(input,output){
      write.csv(shotlog(), file)
    }
  )
- 
- shotlog1<-reactive({
-   request = GET(
-     "http://stats.nba.com/stats/shotchartdetail",
-     query = list(
-       PlayerID=input$pid2,
-       Season = input$csea1,
-       ContextMeasure = "FGA",
-       DateFrom = "",
-       DateTo = "",
-       GameID = "",
-       GameSegment = "",
-       LastNGames = 0,
-       LeagueID = "00",
-       Location = "",
-       Month = 0,
-       OpponentTeamID = 0,
-       Outcome = "",
-       Period = 0,
-       Position = "",
-       RookieYear = "",
-       SeasonSegment = "",
-       SeasonType = "Regular Season",
-       TeamID = 0,
-       VsConference = "",
-       VsDivision = ""
-     )
-   )
-   data<-content(request)
-   if(is.null(unlist(data$resultSets[[1]][[3]]))!=T){
-     shotDataf <- data.frame(matrix(unlist(data$resultSets[[1]][[3]]), ncol=21, byrow = TRUE))
-     colnames(shotDataf) <- data$resultSets[[1]][[2]]}
-   Type<-sqldf("SELECT PLAYER_NAME,ACTION_TYPE AS Type,sum(SHOT_ATTEMPTED_FLAG) as Shot_Quantity,sum(SHOT_MADE_FLAG) as Made_Quantity from shotDataf group by PLAYER_NAME,Type")
-   Shot_Percentage_Season_1<-Type$Shot_Quantity/sum(Type$Shot_Quantity)
-   Type<-data.frame(Type,Shot_Percentage_Season_1)
-   if(input$bench!=T){
-     Type}else{
-       Type[Type$Shot_Percentage_Season_1>=0.01,]
-     }
- })
- 
- shotlog2<-reactive({
-   request = GET(
-     "http://stats.nba.com/stats/shotchartdetail",
-     query = list(
-       PlayerID=input$pid2,
-       Season = input$csea2,
-       ContextMeasure = "FGA",
-       DateFrom = "",
-       DateTo = "",
-       GameID = "",
-       GameSegment = "",
-       LastNGames = 0,
-       LeagueID = "00",
-       Location = "",
-       Month = 0,
-       OpponentTeamID = 0,
-       Outcome = "",
-       Period = 0,
-       Position = "",
-       RookieYear = "",
-       SeasonSegment = "",
-       SeasonType = "Regular Season",
-       TeamID = 0,
-       VsConference = "",
-       VsDivision = ""
-     )
-   )
-   data<-content(request)
-   if(is.null(unlist(data$resultSets[[1]][[3]]))!=T){
-     shotDataf <- data.frame(matrix(unlist(data$resultSets[[1]][[3]]), ncol=21, byrow = TRUE))
-     colnames(shotDataf) <- data$resultSets[[1]][[2]]}
-   Type<-sqldf("SELECT PLAYER_NAME,ACTION_TYPE AS Type,sum(SHOT_ATTEMPTED_FLAG) as Shot_Quantity,sum(SHOT_MADE_FLAG) as Made_Quantity from shotDataf group by PLAYER_NAME,Type")
-   Shot_Percentage_Season_2<-Type$Shot_Quantity/sum(Type$Shot_Quantity)
-   Type<-data.frame(Type,Shot_Percentage_Season_2)
-   if(input$bench!=T){
-     Type}else{
-       Type[Type$Shot_Percentage_Season_2>=0.01,]
-     }
- })
- shotlog3<-reactive({
-   request = GET(
-     "http://stats.nba.com/stats/shotchartdetail",
-     query = list(
-       PlayerID=input$pid2,
-       Season = input$csea3,
-       ContextMeasure = "FGA",
-       DateFrom = "",
-       DateTo = "",
-       GameID = "",
-       GameSegment = "",
-       LastNGames = 0,
-       LeagueID = "00",
-       Location = "",
-       Month = 0,
-       OpponentTeamID = 0,
-       Outcome = "",
-       Period = 0,
-       Position = "",
-       RookieYear = "",
-       SeasonSegment = "",
-       SeasonType = "Regular Season",
-       TeamID = 0,
-       VsConference = "",
-       VsDivision = ""
-     )
-   )
-   data<-content(request)
-   if(is.null(unlist(data$resultSets[[1]][[3]]))!=T){
-     shotDataf <- data.frame(matrix(unlist(data$resultSets[[1]][[3]]), ncol=21, byrow = TRUE))
-     colnames(shotDataf) <- data$resultSets[[1]][[2]]}
-   Type<-sqldf("SELECT PLAYER_NAME,ACTION_TYPE AS Type,sum(SHOT_ATTEMPTED_FLAG) as Shot_Quantity,sum(SHOT_MADE_FLAG) as Made_Quantity from shotDataf group by PLAYER_NAME,Type")
-   Shot_Percentage_Season_3<-Type$Shot_Quantity/sum(Type$Shot_Quantity)
-   Type<-data.frame(Type,Shot_Percentage_Season_3)
-   if(input$bench!=T){
-   Type}else{
-     Type[Type$Shot_Percentage_Season_3>=0.01,]
+ data20<-reactive({
+   if(input$seac==1){
+     data14[data14$PLAYER_NAME==input$namec,c(7,8)]
+   }else{
+     data15[data15$PLAYER_NAME==input$namec,c(7,8)]
    }
- 
-   })
- 
- output$plot21<-renderPlotly({
-   plot_ly(shotlog1(), labels = shotlog1()$Type, values =shotlog1()$Shot_Quantity, type = "pie", hole = 0.6, showlegend = F) %>%
-     layout(title = paste("Plot of",input$csea1,sep=""))
  })
- output$plot22<-renderPlotly({
-     plot_ly(shotlog2(), labels = shotlog2()$Type, values =shotlog2()$Shot_Quantity, type = "pie", hole = 0.6, showlegend = F) %>%
-       layout(title = paste("Plot of ",input$csea2,sep=""))
+ data21<-reactive({
+   if(input$seac==1){
+     data14[data14$PLAYER_NAME==input$namec&data14$EVENT_TYPE=="Made Shot",c(7,8)]
+   }else{
+     data15[data15$PLAYER_NAME==input$namec&data15$EVENT_TYPE=="Made Shot",c(7,8)]
+   }
  })
- output$plot23<-renderPlotly({
-     plot_ly(shotlog3(), labels = shotlog3()$Type, values =shotlog3()$Shot_Quantity, type = "pie", hole = 0.6, showlegend = F) %>%
-       layout(title = paste("Plot of  ",input$csea3,sep=""))
-         
+ output$plotc1<-renderPlot({
+   cluster<-kmeans(data20(),centers = input$cluster,nstart = 10)
+   data<-data.frame(data20(),cluster=as.character(cluster$cluster))
+   
+   ggplot(data, aes(x=LOC_X, y=LOC_Y)) + 
+     annotation_custom(court, -250, 250, -50, 420) +
+     geom_point(aes(colour = cluster,size=2)) +
+     xlim(-250, 250) +
+     ylim(-50, 420)+theme_bw()+ggtitle(paste(input$namec,"'s shoting clustering analysis",sep=" "))+xlab("")+ylab("")
+   
+ })
+ output$plotc2<-renderPlot({
+   
+   cluster<-kmeans(data21(),centers = input$cluster,nstart = 10)
+   data<-data.frame(data21(),cluster=as.character(cluster$cluster))
+   
+   ggplot(data, aes(x=LOC_X, y=LOC_Y)) + 
+     annotation_custom(court, -250, 250, -50, 420) +
+     geom_point(aes(colour = cluster,size=2)) +
+     xlim(-250, 250) +
+     ylim(-50, 420)+theme_bw()+ggtitle(paste(input$namec,"'s made shot clustering analysis",sep=" "))+xlab("")+ylab("")
+   
+   
  })
  
- output$downloadDatacs1<-downloadHandler(
-   filename = function() { 
-     paste(input$pid2, '.csv', sep='') 
-   },
-   content = function(file) {
-     write.csv(shotlog1(),input$csea1, file)
-   }
- )
- 
- output$downloadDatacs2<-downloadHandler(
-   filename = function() { 
-     paste(input$pid2, '.csv', sep='') 
-   },
-   content = function(file) {
-     write.csv(shotlog2(),input$csea2, file)
-   }
- )
- output$downloadDatacs3<-downloadHandler(
-   filename = function() { 
-     paste(input$pid2,input$csea3, '.csv', sep='') 
-   },
-   content = function(file) {
-     write.csv(shotlog3(), file)
-   }
- )
 })
 
 

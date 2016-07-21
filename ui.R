@@ -11,6 +11,7 @@ shinyUI(navbarPage(theme = shinytheme("united"),"NBA Shot Plot",
           sidebarPanel(
             HTML('<Center><img src="NBA.png" width="250" height="100"></Center>'),
             br(),
+            p("Attention: It will take sometime to render the plots. The rendering time will be less than 1 minutes, please be patient.",align="Justify"),
             selectInput("name","Select Player",choices = as.character(name),selected = as.character(name)[1]),
             radioButtons("sea1","Choose Season",choices = list("2014-15"=1,"2015-16"=2),selected = 1),
             br(),
@@ -29,7 +30,8 @@ shinyUI(navbarPage(theme = shinytheme("united"),"NBA Shot Plot",
             br(),
             br(),
             h5("Author"),
-            a(h5("Jiashen Liu"),href="https://nl.linkedin.com/in/jiashen-liu-4658aa112",target="_blank")
+            a(h5("Jiashen Liu"),href="https://nl.linkedin.com/in/jiashen-liu-4658aa112",target="_blank"),
+            a(h5("Code"),href="https://github.com/liujiashen9307/NBAShotChart/",target="_blank")
             
             
                        ),
@@ -99,23 +101,32 @@ shinyUI(navbarPage(theme = shinytheme("united"),"NBA Shot Plot",
                                             h4("Shot Type Summary By Distance"),
                                             plotlyOutput("plot24"))
                                            )),
-        tabPanel("Player's Shot Habit Trend",
-                 sidebarLayout(sidebarPanel(
-                   textInput("pid2",label =h4("Type in Player ID"),value="977" ),
-                   p("The specific player_id can be found on offical website of NBA"),
-                   textInput("csea1", label = h4("Season 1"), value = "2012-13"),
-                   textInput("csea2", label = h4("Season 2"), value = "2013-14"),
-                   textInput("csea3", label = h4("Season 3"), value = "2014-15"),
-                   p(" Format: The format of season should follow this format: 2014-2015"),
-                   checkboxInput("bench","Only include main offense skills? (Benchmark: 1%)",value = F),
-                   downloadButton('downloadDatacs1', 'Download Season 1 Data'),
-                   downloadButton('downloadDatacs2', 'Download Season 2 Data'),
-                   downloadButton('downloadDatacs3', 'Download Season 3 Data'),
-                   p("Export csv data file for your own exploration.")
-                ),mainPanel(
-                  h4("Shot Type Proportion"),
-                  splitLayout(cellwidths=c("33%","33%","34%"),plotlyOutput("plot21"),plotlyOutput("plot22"),plotlyOutput("plot23"))
-                ))),
+        tabPanel("Research Tool---Clustering Analysis of Player's Shooting Activities",
+                 sidebarLayout(
+                   sidebarPanel(
+                     selectInput("namec","Select Player",choices = as.character(name),selected = as.character(name)[1]),
+                     br(),
+                     radioButtons("seac","Choose Season",choices = list("2014-15"=1,"2015-16"=2),selected = 1),
+                     br(),
+                     numericInput("cluster","Number of clusters",value=6,min=3,max=9)
+                   ),
+                   mainPanel(
+                     h4("Description"),
+                     p(h5("This special part serves the research function of re-clustering the habit of shot of players. Traditionally, the league always cluster the shot of players by the defined area of the court. However, the revolution of the training technique makes some players really crazy. Therefore, it is not quite scientific to research the shot data by the traditional court division. Therefore, we implement K-means cluster analysis to re-group the shot data of each player. We believe that clustering the shot data for each player will be beneficial to formulate the defending strategy against the player. For a commonly asked question referring to the cluster analysis, the number of clusters, we think the # of clusters is better decided by the user him/herself. The scientific number of clusters can be visualized by the specific shooting plot",align="Justify")),
+                     h4("Clustering analysis for all shot data"),
+                     p(h5("Firstly, we group all data of the player. Different colors represent different clusters")),
+                     fluidRow(column=8,
+                              plotOutput("plotc1",width = "800", height = "600"),align="Center"),
+                     br(),
+                     h4("Clustering analysis for all made shot"),
+                     p(h5("Also, a similar analysis is conducted with the data of made shot. The player may be able to shoot more accurately in some specific area. Therefore, clustering the made shot will be also helpful to formulate a specific defending strategy."),align="Justify"),
+                     fluidRow(column=8,
+                              plotOutput("plotc2",width = "800", height = "600"),align="Center")
+                    
+                
+                   )
+                 )),
+
         tabPanel("Shot Log Download",
                    sidebarLayout(
                      sidebarPanel(
